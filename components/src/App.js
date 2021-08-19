@@ -11,6 +11,7 @@ export const AutoComplete = (props)  => {
   return (
     <div className="App">
       <Autocomplete
+       freeSolo
         multiple
         options={options}
         getOptionLabel={option => option.title}
